@@ -31,3 +31,13 @@ html { scroll-behavior: smooth; }
 .bg-darkSection { background-color: var(--dark-section); }
 .bg-darkFooter { background-color: var(--dark-footer); }
 .bg-darkHero { background-color: var(--dark-hero); }
+/* Profile Glow Effect */
+.profile-glow {
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.6);
+}
+
+.profile-glow:hover {
+  box-shadow: 
+    0 0 30px rgba(99, 102, 241, 0.9),
+    0 0 60px rgba(99, 102, 241, 0.6);
+}
